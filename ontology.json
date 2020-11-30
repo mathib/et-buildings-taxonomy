@@ -30,6 +30,9 @@
     "@value" : "KU Leuven"
   } ]
 }, {
+  "@id" : "http://creativecommons.org/ns#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -10856,12 +10859,15 @@
 }, {
   "@id" : "https://w3id.org/con-tax/zones/et-buildings",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@id" : "_:genid1"
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
-    "@value" : "A taxonomy of building types, extending bot:Building, is defined by restructuring the concepts from the Onroerend Erfgoed Vlaanderen thesaurus 'ERFGOEDTYPES'[1].\r\n  \r\n  [1] Onroerend Erfgoed Vlaanderen, “ERFGOEDTYPES Thesaurus,” Onroerend Erfgoed Thesauri, 2020. [Online]. Available: https://id.erfgoed.net/thesauri/erfgoedtypes. [Accessed: 29-Nov-2020].\r\n  "
+    "@value" : "A taxonomy of building types, extending bot:Building, is defined by restructuring the concepts from the Onroerend Erfgoed Vlaanderen thesaurus 'ERFGOEDTYPES'[1,2].\r\n  \r\n[1] Onroerend Erfgoed Vlaanderen, “ERFGOEDTYPES Thesaurus,” Onroerend Erfgoed Thesauri, 2020. [Online]. Available: https://id.erfgoed.net/thesauri/erfgoedtypes. [Accessed: 29-Nov-2020].\r\n[2] S. Mortier, K. Van Daele, and L. Meganck, “Calling It What It Is. Thesauri in the Flanders Heritage Agency: History, Importance, Use and Technological Advances,” in ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2017, vol. IV-2/W2, pp. 151–156.  \r\n  "
   } ],
   "http://purl.org/dc/terms/issued" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",

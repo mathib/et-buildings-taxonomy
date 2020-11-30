@@ -25,6 +25,37 @@
 @prefix xl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://w3id.org/con-tax/zones/et-buildings>
+  rdf:type voaf:Vocabulary ;
+  rdf:type owl:Ontology ;
+  cc:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dcterms:creator [
+      rdf:type vcard:Individual ;
+      vcard:family-name "Bonduel" ;
+      vcard:fn "Mathias Bonduel" ;
+      vcard:given-name "Mathias" ;
+      vcard:hasOrganizationName [
+          rdf:type vcard:Organization ;
+          owl:sameAs dbr:Katholieke_Universiteit_Leuven ;
+          vcard:hasURL <https://www.kuleuven.be> ;
+          vcard:organization-name "KU Leuven" ;
+        ] ;
+      vcard:hasURL <https://orcid.org/0000-0002-3313-924X> ;
+      vcard:hasURL <https://www.kuleuven.be/wieiswie/nl/person/00110827> ;
+      vcard:hasURL <https://www.researchgate.net/profile/Mathias_Bonduel> ;
+    ] ;
+  dcterms:description """A taxonomy of building types, extending bot:Building, is defined by restructuring the concepts from the Onroerend Erfgoed Vlaanderen thesaurus 'ERFGOEDTYPES'[1,2].
+  
+[1] Onroerend Erfgoed Vlaanderen, “ERFGOEDTYPES Thesaurus,” Onroerend Erfgoed Thesauri, 2020. [Online]. Available: https://id.erfgoed.net/thesauri/erfgoedtypes. [Accessed: 29-Nov-2020].
+[2] S. Mortier, K. Van Daele, and L. Meganck, “Calling It What It Is. Thesauri in the Flanders Heritage Agency: History, Importance, Use and Technological Advances,” in ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2017, vol. IV-2/W2, pp. 151–156.  
+  """@en ;
+  dcterms:issued "2020-11-29"^^xsd:date ;
+  dcterms:title "ET-BUILDINGS taxonomy"@en ;
+  vann:preferredNamespacePrefix "et-buildings" ;
+  vann:preferredNamespaceUri "https://w3id.org/con-tax/zones/et-buildings#" ;
+  rdfs:comment "- Version 0.0.1: initial version"@en ;
+  owl:versionInfo "0.0.1" ;
+.
 <http://w3id.org/con-tax/zones/et-buildings#1>
   rdf:type owl:Class ;
   rdfs:comment "Een aalpomp is een pomp waarmee men de vloeibare mest uit de aalput van de stal haalt."@nl-be ;
@@ -4410,33 +4441,4 @@
 .
 bot:Building
   rdf:type owl:Class ;
-.
-<https://w3id.org/con-tax/zones/et-buildings>
-  rdf:type voaf:Vocabulary ;
-  rdf:type owl:Ontology ;
-  dcterms:creator [
-      rdf:type vcard:Individual ;
-      vcard:family-name "Bonduel" ;
-      vcard:fn "Mathias Bonduel" ;
-      vcard:given-name "Mathias" ;
-      vcard:hasOrganizationName [
-          rdf:type vcard:Organization ;
-          owl:sameAs dbr:Katholieke_Universiteit_Leuven ;
-          vcard:hasURL <https://www.kuleuven.be> ;
-          vcard:organization-name "KU Leuven" ;
-        ] ;
-      vcard:hasURL <https://orcid.org/0000-0002-3313-924X> ;
-      vcard:hasURL <https://www.kuleuven.be/wieiswie/nl/person/00110827> ;
-      vcard:hasURL <https://www.researchgate.net/profile/Mathias_Bonduel> ;
-    ] ;
-  dcterms:description """A taxonomy of building types, extending bot:Building, is defined by restructuring the concepts from the Onroerend Erfgoed Vlaanderen thesaurus 'ERFGOEDTYPES'[1].
-  
-  [1] Onroerend Erfgoed Vlaanderen, “ERFGOEDTYPES Thesaurus,” Onroerend Erfgoed Thesauri, 2020. [Online]. Available: https://id.erfgoed.net/thesauri/erfgoedtypes. [Accessed: 29-Nov-2020].
-  """@en ;
-  dcterms:issued "2020-11-29"^^xsd:date ;
-  dcterms:title "ET-BUILDINGS taxonomy"@en ;
-  vann:preferredNamespacePrefix "et-buildings" ;
-  vann:preferredNamespaceUri "https://w3id.org/con-tax/zones/et-buildings#" ;
-  rdfs:comment "- Version 0.0.1: initial version"@en ;
-  owl:versionInfo "0.0.1" ;
 .

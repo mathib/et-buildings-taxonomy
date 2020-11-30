@@ -13,7 +13,7 @@ The most recent version of ET-BUILDINGS is always available in this Github repos
 
 ## Introduction to ET-BUILDINGS
 
-The ET-BUILDINGS taxonomy contains OWL classes to classify **buildings** via subclasses of [bot:Building](https://w3id.org/bot#Building). The taxonomy concepts are extracted and restructured from the Onroerend Erfgoed Vlaanderen ERFGOEDTYPES thesaurus [1].
+The ET-BUILDINGS taxonomy contains OWL classes to classify **buildings** via subclasses of [bot:Building](https://w3id.org/bot#Building). The taxonomy concepts are extracted and restructured from the Onroerend Erfgoed Vlaanderen ERFGOEDTYPES thesaurus [1,2].
 
 ## Contributing to ET-BUILDINGS
 
@@ -28,3 +28,4 @@ Issues related to the processing of the data can be mentioned in the issues of t
 ## References
 
 [1] Onroerend Erfgoed Vlaanderen, “ERFGOEDTYPES Thesaurus,” Onroerend Erfgoed Thesauri, 2020. [Online]. Available: https://id.erfgoed.net/thesauri/erfgoedtypes. [Accessed: 29-Nov-2020].
+[2] S. Mortier, K. Van Daele, and L. Meganck, “Calling It What It Is. Thesauri in the Flanders Heritage Agency: History, Importance, Use and Technological Advances,” in ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2017, vol. IV-2/W2, pp. 151–156.
